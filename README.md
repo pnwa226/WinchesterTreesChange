@@ -181,8 +181,7 @@
 
         <p>
           Visualizations created from lidar data provided using PointCloud Data, Digital Elevation Model, and Natural Color Imagery from
-          <a href="https://kyfromabove.ky.gov/">KyFromAbove</a> in ArcGIS Pro. Additional sources of information from
-          <a href="https://...">name of source</a>, April, 2023.
+          <a href="https://kyfromabove.ky.gov/">KyFromAbove</a> in ArcGIS Pro. 
         </p>
 
         <p>
@@ -202,11 +201,11 @@
       </div>
       <div class="right-column">
         <h3> Vizualizations </h3>
-        <img src="2014.png" alt="2014 NDVI (Normalized Difference Vegetation Index) Trees were filtered by only showing NDVI > 0.05 and elevation above the surface of more than 5 ft." width="100%" />
-        <a href="2014.pdf" target="_blank">Download PDF</a>
+        <img src="https://github.com/user-attachments/assets/d0acd931-6e73-4ae5-b835-84031f93967e" alt="2014 NDVI (Normalized Difference Vegetation Index) Trees were filtered by only showing NDVI > 0.05 and elevation above the surface of more than 5 ft." width="100%" />
+        <a href="https://github.com/user-attachments/files/20089166/2014.pdf" target="_blank">Download PDF</a>
 
-        <img src="2022.png" alt="2014 NDVI (Normalized Difference Vegetation Index) Trees were filtered by only showing NDVI > 0.05 and elevation above the surface of more than 5 ft." width="100%" />
-        <a href="2022.pdf" target="_blank">Download PDF</a>
+        <img src="(https://github.com/user-attachments/assets/959e6699-4080-4e50-afd2-8347ac2794a3" alt="2014 NDVI (Normalized Difference Vegetation Index) Trees were filtered by only showing NDVI > 0.05 and elevation above the surface of more than 5 ft." width="100%" />
+        <a href="https://github.com/user-attachments/files/20089135/2022.pdf" target="_blank">Download PDF</a>
 
       </div>
     </div>
