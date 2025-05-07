@@ -5,9 +5,10 @@
   <meta charset="utf-8" />
   <title>Presentation</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet" />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
   <style>
     /* Set margin/padding to fit border in box model */
     * {
@@ -25,14 +26,20 @@
       color: rgb(32, 32, 32);
       background-color: rgb(236, 232, 228);
     }
+    .bebasfont {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+}
     /* Define styles for the headings */
     h1 {
       font-size: 3rem;
       font-weight: 800;
       margin: 10px 0;
       padding: 0;
-      color: rgb(0, 0, 0);
+      color: hsl(240, 37%, 33%);
     }
 
     h2 {
@@ -147,15 +154,14 @@
 <body>
   <section>
     <!-- 💡💡💡 Cesium map: paste embed code below -->
-    <iframe title="Cesium area of interest" width="100%" height="576"
-      src="https://cesium.com/ion/stories/viewer/?id=0e1e55df-95ef-490b-9958-25d356d0378a" frameborder="0"
-      allow="fullscreen" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+    <iframe title="Winchester Trees" width="1024" height="576" src="https://ion.cesium.com/stories/viewer/?id=03f5fe58-07ee-447b-9f5c-4b277db6e424" frameborder="0" allow="fullscreen" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
     </iframe>
     <!-- 💡💡💡 Cesium map: paste embed code above -->
-    <p class="caption">Caption for Cesium slideshow</p>
+    <p class="caption">This Celsium Map gives a point cloud visualization of the streetscape trees in Winchester, KY. Point cloud data derived from kyfromabove (Phase 2)</p>
     <div class="title">
-      <h1>Brief, yet bold title for project</h1>
-      <h2>Subtitle with when and where</h2>
+      <h1 class=".bebasfont"> This is where the title goes</h1>
+      <h2>When and were of the map</h2>
     </div>
     <div class="container">
       <div class="left-column">
@@ -187,10 +193,9 @@
       </div>
       <div class="right-column">
         <h3>Right Column - Vizualizations </h3>
-        <img src="map1.jpg" alt="Something about this map" width="100%" />
+        <img src="summit change.jpg" alt="Something about this map" width="75%" />
         <p class="caption">Caption for map1</p>
-        <img src="map2.jpg" alt="Something about this map" width="100%" />
-        <p class="caption">Caption for map2</p>
+        <iframe width="75%" height="315" src="https://www.youtube.com/embed/nEA7Sb9RhyY?si=i1PNd6CQlMmyb8Uv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
   </section>
