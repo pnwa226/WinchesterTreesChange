@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -185,7 +185,7 @@
         </p>
 
         <p>
-          Page and visualizations created by B for GEO 409, Department of
+          Page and visualizations created by Philip Watts for GEO 409, Department of
           Geography, University of Kentucky. Spring 2024.
         </p>
 
