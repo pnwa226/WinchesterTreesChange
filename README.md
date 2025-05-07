@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -161,7 +160,6 @@
     <!-- 💡💡💡 Cesium map: paste embed code below -->
     <iframe title="Winchester Trees" width="100%" height="576" src="https://ion.cesium.com/stories/viewer/?id=03f5fe58-07ee-447b-9f5c-4b277db6e424" frameborder="0" allow="fullscreen" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-    </iframe>
     <!-- 💡💡💡 Cesium map: paste embed code above -->
     <p class="caption">Cesium ion visualization of the streetscape trees in Winchester, KY. Point cloud data derived from kyfromabove (Phase 2)</p>
     <div class="title">
@@ -201,6 +199,13 @@
       </div>
       <div class="right-column">
         <h3> Vizualizations </h3>
+![2014](https://github.com/user-attachments/assets/2d1afade-89ec-4736-841f-7cf7a962544f)  
+[2014.pdf](https://github.com/user-attachments/files/20089261/2014.pdf)
+
+![2022](https://github.com/user-attachments/assets/8c112eb1-fd61-4d4d-bf8d-7add0d57af71)
+[2022.pdf](https://github.com/user-attachments/files/20089263/2022.pdf)
+
+        
         <img src="https://github.com/user-attachments/assets/d0acd931-6e73-4ae5-b835-84031f93967e" alt="2014 NDVI (Normalized Difference Vegetation Index) Trees were filtered by only showing NDVI > 0.05 and elevation above the surface of more than 5 ft." width="100%" />
         <a href="https://github.com/user-attachments/files/20089166/2014.pdf" target="_blank">Download PDF</a>
 
@@ -212,6 +217,7 @@
   </section>
   <footer>
     <hr />
+    ![logo-color-400px](https://github.com/user-attachments/assets/2d125233-46b9-495c-bfc8-58f651ce2b45)
     <img src="logo-color-400px.png" alt="UKy Arts and Sciences  " width="300px">
 
   </footer>
