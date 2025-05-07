@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,6 +8,10 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
   <style>
     /* Set margin/padding to fit border in box model */
@@ -21,13 +25,14 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: "Open Sans", sans-serif;
+      font-family: "Rethink Sans", sans-serif;
       font-weight: 400;
       color: rgb(32, 32, 32);
-      background-color: rgb(236, 232, 228);
+      background-color: rgb(230, 221, 213);
+  
     }
-    .bebasfont {
-  font-family: "Bebas Neue", sans-serif;
+  .Rethink {
+  font-family: "Rethink Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -122,7 +127,7 @@
     /* Define styles for the right column */
     .right-column {
       flex-basis: 55%;
-      background-color: rgba(255, 255, 255, 0.35);
+      background-color: rgba(188, 199, 193, 0.5);
       border-radius: 10px;
       padding: 20px;
       margin-bottom: 20px;
@@ -154,48 +159,55 @@
 <body>
   <section>
     <!-- 💡💡💡 Cesium map: paste embed code below -->
-    <iframe title="Winchester Trees" width="1024" height="576" src="https://ion.cesium.com/stories/viewer/?id=03f5fe58-07ee-447b-9f5c-4b277db6e424" frameborder="0" allow="fullscreen" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe title="Winchester Trees" width="100%" height="576" src="https://ion.cesium.com/stories/viewer/?id=03f5fe58-07ee-447b-9f5c-4b277db6e424" frameborder="0" allow="fullscreen" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
     </iframe>
     <!-- 💡💡💡 Cesium map: paste embed code above -->
-    <p class="caption">This Celsium Map gives a point cloud visualization of the streetscape trees in Winchester, KY. Point cloud data derived from kyfromabove (Phase 2)</p>
+    <p class="caption">Cesium ion visualization of the streetscape trees in Winchester, KY. Point cloud data derived from kyfromabove (Phase 2)</p>
     <div class="title">
-      <h1 class=".bebasfont"> This is where the title goes</h1>
-      <h2>When and were of the map</h2>
+      <h1 class=".bebasfont"> Tree Change </h1>
+      <h2>2014 - 2022 Downtown Winchester, Kentucky</h2>
     </div>
     <div class="container">
       <div class="left-column">
-        <h3>Left Column - Description</h3>
+        <h3></h3>
         <p>
-          Two sentences about your area/theme of interest (e.g., when was it
-          established, created, where is it, what is unique about, etc.)
+          Downtown Winchester, Kentucky is actively working on screetscape improvements. It is important to look at the aesthetic changes of the area to ensure that future projects create a more sustainable and good looking downtown. 
         </p>
 
         <p>
-          Two sentences about the goals of the project (e.g., The goal of this
-          project is to measure and visualize the historic entrance to Mammoth
-          Cave).
+          The goal of this project was to show the change in tree coverage in Downtown Winchester. Within my area of interest—a 1400 ft by 1400 ft square centered roughly at the courthouse—I employed Map Algebra to extract tree data. These maps show minimal overall change, with some tree growth around Lexington Avenue and South Highland Street, but a noticeable decrease in tree coverage along Main Street. The analysis did not produce the expected visualization, likely due to interference from surrounding buildings that affected the accuracy of tree detection.
         </p>
 
         <p>
-          Visualizations created from lidar data provided by
-          <a href="https://kyfromabove.ky.gov/">KyFromAbove</a> in ArcGIS Pro and
-          Blender. Additional sources of information from
+          Visualizations created from lidar data provided using PointCloud Data, Digital Elevation Model, and Natural Color Imagery from
+          <a href="https://kyfromabove.ky.gov/">KyFromAbove</a> in ArcGIS Pro. Additional sources of information from
           <a href="https://...">name of source</a>, April, 2023.
         </p>
 
         <p>
-          Page and visualizations created by Philip Watts for GEO 409, Department of
+          Page and visualizations created by Philip N. Watts for GEO 409, Department of
           Geography, University of Kentucky. Spring 2024.
         </p>
 
+        <h1 class=".bebasfont"> Streetview April 2023 </h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1746634281748!6m8!1m7!1sb0EZQlixhGiDNPNGht9-UQ!2m2!1d37.9927357661199!2d-84.17737671858555!3f82.61034647808239!4f-7.696093457043176!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <h1 class=".bebasfont"> Streetview August 2013 </h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1746634415019!6m8!1m7!1s0iK9Iqit3fJoLuUp_Tt0QA!2m2!1d37.99273894645019!2d-84.17737752327416!3f61.440128709773916!4f-4.168050630191544!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <h1 class=".bebasfont"> Streetview September 2007 </h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1746634476823!6m8!1m7!1sl2PIIaxCQ5Nt-Qp3iVYwKA!2m2!1d37.99270805566174!2d-84.17732932240821!3f340.6891979174469!4f-3.402596634940167!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       </div>
       <div class="right-column">
-        <h3>Right Column - Vizualizations </h3>
-        <img src="summit change.jpg" alt="Something about this map" width="75%" />
-        <p class="caption">Caption for map1</p>
-        <iframe width="75%" height="315" src="https://www.youtube.com/embed/nEA7Sb9RhyY?si=i1PNd6CQlMmyb8Uv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3> Vizualizations </h3>
+        <img src="2014.png" alt="2014 NDVI (Normalized Difference Vegetation Index) Trees were filtered by only showing NDVI > 0.05 and elevation above the surface of more than 5 ft." width="100%" />
+        <a href="2014.pdf" target="_blank">Download PDF</a>
+
+        <img src="2022.png" alt="2014 NDVI (Normalized Difference Vegetation Index) Trees were filtered by only showing NDVI > 0.05 and elevation above the surface of more than 5 ft." width="100%" />
+        <a href="2022.pdf" target="_blank">Download PDF</a>
+
       </div>
     </div>
   </section>
